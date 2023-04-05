@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\marti\OneDrive\DAM\2ºAÑO\JavaFX\.metadata\.plugins\org.eclipse.jdt.core
+3468996391.index
+3894315606.index
+1865797976.index

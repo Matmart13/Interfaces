@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.ControllerVistaPrincipal">
+   <children>
+      <Button fx:id="Boton_Borrar" layoutX="47.0" layoutY="164.0" mnemonicParsing="false" onAction="#borrar_seleccionado" prefHeight="36.0" prefWidth="126.0" text="Borrar Seleccionado" />
+      <TableView fx:id="tabla_persona" layoutX="287.0" layoutY="25.0" onMouseClicked="#mostrar_texto" prefHeight="257.0" prefWidth="305.0">
+        <columns>
+          <TableColumn fx:id="col_nombre" prefWidth="153.0" text="Nombre" />
+          <TableColumn fx:id="col_apellido" prefWidth="151.0" text="Apellido" />
+        </columns>
+      </TableView>
+      <Label fx:id="etiqueta" layoutX="287.0" layoutY="306.0" prefHeight="17.0" prefWidth="282.0" />
+   </children>
+</AnchorPane>

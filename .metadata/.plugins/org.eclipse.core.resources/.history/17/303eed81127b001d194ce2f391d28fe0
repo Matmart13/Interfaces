@@ -1,0 +1,5 @@
+module 13-12-2022 {
+	requires javafx.controls;
+	
+	opens application to javafx.graphics, javafx.fxml;
+}
